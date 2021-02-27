@@ -8,8 +8,8 @@
 
 본 프로젝트의 목적은 국내 저조한 창업 생존율(2018년도 기준 27.5%)과 적은 창업 준비기간(평균 6개월 미만)을 개선하기 위하여 진행된 프로젝트입니다. 목적은 예비 창업자에게 객관적이고 유리한 업종을 추천해주는 것을 목표로 합니다.  
 
-DataSet : 공공데이터 이용
-Tool : Android Studio, Jupyter NoteBook(Python), BeeAI platform
+DataSet : 공공데이터 이용<br>
+Tool : Android Studio, Jupyter NoteBook(Python), BeeAI platform<br>
 Technology : MQTT 통신, TCP 소켓 통신, Random Forest
 <br><br>
 
@@ -34,5 +34,7 @@ Technology : MQTT 통신, TCP 소켓 통신, Random Forest
 |            문의사항 메일            |
 |:-----------------------------------:|
 | ![img_문의사항](./img/문의사항.jpg) |
+
+<br><br><br>
 
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:hschoi5542@gmail.com)](mailto:hschoi5542@gmail.com)
