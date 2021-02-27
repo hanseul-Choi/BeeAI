@@ -1,0 +1,154 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rank1"/>
+                <TextView
+                    android:id="@+id/rank_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rank2"/>
+                <TextView
+                    android:id="@+id/rank_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rank3"/>
+                <TextView
+                    android:id="@+id/rank_tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_day"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="요일별 매출 비율"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <com.broooapps.graphview.CurveGraphView
+                android:id="@+id/cgv"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="-25dp"
+                android:text="월         화         수         목         금         토         일"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_time"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="시간별 매출 비율"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <com.broooapps.graphview.CurveGraphView
+                android:id="@+id/cgv2"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="-25dp"
+                android:text="00~06    06~11    11~14    14~17    17~21    21~24"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_old"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="연령대별 매출 비율"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <com.broooapps.graphview.CurveGraphView
+                android:id="@+id/cgv3"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="-25dp"
+                android:text="10          20          30          40          50          60"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
