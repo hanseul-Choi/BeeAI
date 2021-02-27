@@ -1,5 +1,5 @@
 # KSB BeeAI Project
-## _공공 데이터를 기반으로 한 창업성 평가_
+_공공 데이터를 기반으로 한 창업성 평가_
 <br><br>
 
 ## KSB Project
