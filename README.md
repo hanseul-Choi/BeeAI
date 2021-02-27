@@ -37,4 +37,5 @@ Technology : MQTT 통신, TCP 소켓 통신, Random Forest
 
 <br><br><br>
 
+_Contact :_ &nbsp; 
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:hschoi5542@gmail.com)](mailto:hschoi5542@gmail.com)
