@@ -1,4 +1,0 @@
-#Wed Jan 20 16:09:53 KST 2021
-base.0=C\:\\Users\\82105\\Desktop\\AI_Unicorn (4)\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
